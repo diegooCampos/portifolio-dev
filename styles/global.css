@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gray-100: #E2E4E9;
+  --gray-200: #C0C4CE;
+  --gray-300: #878EA1;
+  --gray-400: #292C34;
+  --gray-500: #16181D;
+  --gray-600: #0D0E11;
+
+  --main-red: #E3646E; /* entender se vou deixar essas cores como variaveis */
+  --main-purple: #BB72E9; /* entender se vou deixar essas cores como variaveis */
+
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-inconsolata: "Inconsolata", monospace;
+  --font-family-maven: "Maven Pro", sans-serif;
+
+  --title-lg: 800 56px/120% var(--font-family-asap);
+  --title-md: 800 24px/120% var(--font-family-asap);
+  --tile-sm: 800 16px/120% var(--font-family-asap);
+
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
+
+  --text-md: 400 16px/140% var(--font-family-maven);
+  --text-sm: 400 14px/140% var(--font-family-maven);
+}
