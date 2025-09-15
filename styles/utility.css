@@ -1,9 +1,27 @@
 
 .title-lg {
-  font: var(--h2);
+  font: var(--h1);
 }
 
 .title-md {
+  font: var(--h2);
+  color: var(--gray-100);
+}
+
+.title-sm {
   font: var(--h3);
+}
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 56px;
+}
+
+.header-subtitle {
+  font: var(--subtitle);
 }
 

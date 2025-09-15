@@ -1,6 +1,6 @@
 .intro {
   min-width: 1366px;
-  min-height: 750px;
+  /* min-height: 750px; */
   background-image: url(../assets/images/Background_Intro.png);
 
   padding: 94px;
@@ -13,7 +13,7 @@
 
   margin-bottom: 80px;
 
-  h5 {
+  h4 {
     font: var(--subtitle);
     color: var(--gray-200);
     margin-bottom: 8px;
@@ -23,7 +23,7 @@
     }
   }
   
-  h4 {
+  h1 {
     color: var(--gray-100);
     margin-bottom: 20px;
   }
