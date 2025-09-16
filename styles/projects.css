@@ -1,5 +1,5 @@
 .projects {
-  padding-inline: 120px;
+  padding-inline: 163px;
   padding-bottom: 144px;
   padding-top: 72px;
 
@@ -12,12 +12,12 @@
 
 .grid-projects {
   display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 1fr 1fr 1fr */
+  
+  gap: 24px; /* column-gap e row-gap */
 }
 
 .card-project {
-  max-width: 330px;
-  max-height: 280px;
-
   padding: 12px 12px 17px 12px;
   
   background-color: var(--gray-400);
