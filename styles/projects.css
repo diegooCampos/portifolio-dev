@@ -1,4 +1,4 @@
-.projects {
+#projects {
   padding-inline: 163px;
   padding-bottom: 144px;
   padding-top: 72px;
@@ -8,13 +8,6 @@
   header h4 {
     color: var(--main-red);
   }
-}
-
-.grid-projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 1fr 1fr 1fr */
-  
-  gap: 24px; /* column-gap e row-gap */
 }
 
 .card-project {

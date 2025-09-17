@@ -3,10 +3,10 @@
   font: var(--h1);
 }
 
-.title-md {
+/* .title-md {
   font: var(--h2);
   color: var(--gray-100);
-}
+} */
 
 .title-sm {
   font: var(--h3);
@@ -19,9 +19,26 @@
   gap: 8px;
 
   margin-bottom: 56px;
+
+  h4 {
+    font: var(--subtitle);
+    color: var(--main-red);
+  }
+
+  h3 {
+    font: var(--h2);
+    color: var(--gray-100);
+  }
 }
 
-.header-subtitle {
-  font: var(--subtitle);
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 1fr 1fr 1fr */
+  
+  gap: 24px; /* column-gap e row-gap */
 }
+
+/* .header-subtitle {
+  font: var(--subtitle);
+} */
 

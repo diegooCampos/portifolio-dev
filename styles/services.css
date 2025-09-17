@@ -1,0 +1,31 @@
+#services {
+  background-color: #0D0E11;
+
+  padding-inline: 239px;
+  padding-top: 88px;
+  padding-bottom: 120px;
+
+}
+
+.card-service {
+  border: 1px solid var(--gray-500);
+  border-radius: 12px;
+
+  padding: 20px;
+
+  img {
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    font: var(--title-sm);
+    color: var(--gray-100);
+
+    margin-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+  }
+}
