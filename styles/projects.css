@@ -36,3 +36,7 @@
     font: var(--text-sm);
   }
 }
+
+.card-project:hover {
+  border: 2px solid var(--gray-300);
+}

@@ -44,3 +44,7 @@
     gap: 12px;
   }
 }
+
+.link:hover {
+  border: 2px solid #3996DB;
+}
