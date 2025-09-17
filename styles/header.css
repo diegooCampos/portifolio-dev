@@ -1,6 +1,6 @@
 .intro {
-  min-width: 1366px;
-  /* min-height: 750px; */
+  max-width: 100%;
+  
   background-image: url(../assets/images/Background_Intro.png);
 
   padding: 94px;
