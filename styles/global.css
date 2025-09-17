@@ -11,8 +11,7 @@
   --gray-500: #16181D;
   --gray-600: #0D0E11;
 
-  --main-red: #E3646E; /* entender se vou deixar essas cores como variaveis */
-  --main-purple: #BB72E9; /* entender se vou deixar essas cores como variaveis */
+  --main-red: #E3646E; 
 
   --font-family-asap: "Asap", sans-serif;
   --font-family-inconsolata: "Inconsolata", monospace;

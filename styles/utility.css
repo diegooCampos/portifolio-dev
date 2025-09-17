@@ -3,11 +3,6 @@
   font: var(--h1);
 }
 
-/* .title-md {
-  font: var(--h2);
-  color: var(--gray-100);
-} */
-
 .title-sm {
   font: var(--h3);
 }
@@ -37,8 +32,3 @@
   
   gap: 24px; /* column-gap e row-gap */
 }
-
-/* .header-subtitle {
-  font: var(--subtitle);
-} */
-
